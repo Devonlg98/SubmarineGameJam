@@ -59,7 +59,12 @@ public class Repair : MonoBehaviour
     {
 
     }
-
+	public void Use()
+	{
+		wrench.gameObject.SetActive(false);
+        fireEx.gameObject.SetActive(false);
+        ductTape.gameObject.SetActive(false);
+	}
 }
 
 
