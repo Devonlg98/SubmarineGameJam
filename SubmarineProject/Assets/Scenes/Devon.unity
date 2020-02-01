@@ -520,6 +520,7 @@ Transform:
   m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 <<<<<<< HEAD:SubmarineProject/Assets/Scenes/Devon.unity
+<<<<<<< HEAD:SubmarineProject/Assets/Scenes/Devon.unity
 <<<<<<< HEAD:SubmarineProject/Assets/Scenes/Main_Dev.unity
 --- !u!114 &194333552
 MonoBehaviour:
@@ -542,6 +543,9 @@ MonoBehaviour:
 =======
 --- !u!1 &164517846
 >>>>>>> parent of df36b15... Do a heckin healthbar, fix pls jojo:SubmarineProject/Assets/Scenes/Devon.unity
+=======
+--- !u!1 &164517846
+>>>>>>> parent of df36b15... Do a heckin healthbar, fix pls jojo:SubmarineProject/Assets/Scenes/Main_Dev.unity
 =======
 --- !u!1 &164517846
 >>>>>>> parent of df36b15... Do a heckin healthbar, fix pls jojo:SubmarineProject/Assets/Scenes/Main_Dev.unity
@@ -1441,6 +1445,9 @@ Light:
   m_ShadowAngle: 0
 --- !u!1 &709840314
 <<<<<<< HEAD:SubmarineProject/Assets/Scenes/Devon.unity
+<<<<<<< HEAD:SubmarineProject/Assets/Scenes/Devon.unity
+=======
+>>>>>>> parent of df36b15... Do a heckin healthbar, fix pls jojo:SubmarineProject/Assets/Scenes/Main_Dev.unity
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1488,6 +1495,7 @@ CapsuleCollider:
   m_Direction: 1
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &709840317
+<<<<<<< HEAD:SubmarineProject/Assets/Scenes/Devon.unity
 MeshRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3137,12 +3145,18 @@ MeshCollider:
   m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!23 &743732961
+=======
+>>>>>>> parent of df36b15... Do a heckin healthbar, fix pls jojo:SubmarineProject/Assets/Scenes/Main_Dev.unity
 MeshRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD:SubmarineProject/Assets/Scenes/Devon.unity
   m_GameObject: {fileID: 743732958}
+=======
+  m_GameObject: {fileID: 709840314}
+>>>>>>> parent of df36b15... Do a heckin healthbar, fix pls jojo:SubmarineProject/Assets/Scenes/Main_Dev.unity
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -3175,15 +3189,25 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+<<<<<<< HEAD:SubmarineProject/Assets/Scenes/Devon.unity
 --- !u!33 &743732962
+=======
+--- !u!33 &709840318
+>>>>>>> parent of df36b15... Do a heckin healthbar, fix pls jojo:SubmarineProject/Assets/Scenes/Main_Dev.unity
 MeshFilter:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD:SubmarineProject/Assets/Scenes/Devon.unity
   m_GameObject: {fileID: 743732958}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &780186330
+=======
+  m_GameObject: {fileID: 709840314}
+  m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &740840401
+>>>>>>> parent of df36b15... Do a heckin healthbar, fix pls jojo:SubmarineProject/Assets/Scenes/Main_Dev.unity
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3191,6 +3215,7 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
+<<<<<<< HEAD:SubmarineProject/Assets/Scenes/Devon.unity
   - component: {fileID: 780186331}
   - component: {fileID: 780186334}
   - component: {fileID: 780186333}
@@ -3198,16 +3223,27 @@ GameObject:
   m_Layer: 0
   m_Name: fireEx
   m_TagString: fireEx
+=======
+  - component: {fileID: 740840402}
+  m_Layer: 0
+  m_Name: DriverSide
+  m_TagString: Untagged
+>>>>>>> parent of df36b15... Do a heckin healthbar, fix pls jojo:SubmarineProject/Assets/Scenes/Main_Dev.unity
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< HEAD:SubmarineProject/Assets/Scenes/Devon.unity
 --- !u!4 &780186331
+=======
+--- !u!4 &740840402
+>>>>>>> parent of df36b15... Do a heckin healthbar, fix pls jojo:SubmarineProject/Assets/Scenes/Main_Dev.unity
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD:SubmarineProject/Assets/Scenes/Devon.unity
   m_GameObject: {fileID: 780186330}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 10.049583, y: -0.4354565, z: 2.5886793}
@@ -3218,10 +3254,29 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &780186332
 BoxCollider:
+=======
+  m_GameObject: {fileID: 740840401}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -2.8085947, y: 39.05102, z: 1.2932206}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 869881832}
+  - {fileID: 1621409087}
+  - {fileID: 1181641976}
+  - {fileID: 1806804936}
+  - {fileID: 743732959}
+  - {fileID: 121623712}
+  m_Father: {fileID: 0}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &743732958
+GameObject:
+>>>>>>> parent of df36b15... Do a heckin healthbar, fix pls jojo:SubmarineProject/Assets/Scenes/Main_Dev.unity
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD:SubmarineProject/Assets/Scenes/Devon.unity
   m_GameObject: {fileID: 780186330}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
@@ -3270,10 +3325,286 @@ MeshRenderer:
   m_SortingOrder: 0
 --- !u!33 &780186334
 MeshFilter:
+=======
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 743732959}
+  - component: {fileID: 743732962}
+  - component: {fileID: 743732961}
+  - component: {fileID: 743732960}
+  m_Layer: 0
+  m_Name: Plane (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &743732959
+Transform:
+>>>>>>> parent of df36b15... Do a heckin healthbar, fix pls jojo:SubmarineProject/Assets/Scenes/Main_Dev.unity
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD:SubmarineProject/Assets/Scenes/Devon.unity
+  m_GameObject: {fileID: 780186330}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &787218797
+GameObject:
+=======
+  m_GameObject: {fileID: 743732958}
+  m_LocalRotation: {x: 1, y: 0, z: 0, w: 0}
+  m_LocalPosition: {x: 0, y: -1.4, z: 22.005}
+  m_LocalScale: {x: 2.5, y: 1, z: 5}
+  m_Children: []
+  m_Father: {fileID: 740840402}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 180, y: 0, z: 0}
+--- !u!64 &743732960
+MeshCollider:
+>>>>>>> parent of df36b15... Do a heckin healthbar, fix pls jojo:SubmarineProject/Assets/Scenes/Main_Dev.unity
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD:SubmarineProject/Assets/Scenes/Devon.unity
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 787218798}
+  - component: {fileID: 787218799}
+  m_Layer: 0
+  m_Name: Pipe1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &787218798
+Transform:
+=======
+  m_GameObject: {fileID: 743732958}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!23 &743732961
+MeshRenderer:
+>>>>>>> parent of df36b15... Do a heckin healthbar, fix pls jojo:SubmarineProject/Assets/Scenes/Main_Dev.unity
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD:SubmarineProject/Assets/Scenes/Devon.unity
+  m_GameObject: {fileID: 787218797}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1560288974}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!135 &787218799
+SphereCollider:
+=======
+  m_GameObject: {fileID: 743732958}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &743732962
+MeshFilter:
+>>>>>>> parent of df36b15... Do a heckin healthbar, fix pls jojo:SubmarineProject/Assets/Scenes/Main_Dev.unity
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD:SubmarineProject/Assets/Scenes/Devon.unity
+  m_GameObject: {fileID: 787218797}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.5
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!1 &869881831
+=======
+  m_GameObject: {fileID: 743732958}
+  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &780186330
+>>>>>>> parent of df36b15... Do a heckin healthbar, fix pls jojo:SubmarineProject/Assets/Scenes/Main_Dev.unity
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+<<<<<<< HEAD:SubmarineProject/Assets/Scenes/Devon.unity
+  - component: {fileID: 869881832}
+  - component: {fileID: 869881835}
+  - component: {fileID: 869881834}
+  - component: {fileID: 869881833}
+  m_Layer: 0
+  m_Name: Plane
+  m_TagString: Untagged
+=======
+  - component: {fileID: 780186331}
+  - component: {fileID: 780186334}
+  - component: {fileID: 780186333}
+  - component: {fileID: 780186332}
+  m_Layer: 0
+  m_Name: fireEx
+  m_TagString: fireEx
+>>>>>>> parent of df36b15... Do a heckin healthbar, fix pls jojo:SubmarineProject/Assets/Scenes/Main_Dev.unity
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+<<<<<<< HEAD:SubmarineProject/Assets/Scenes/Devon.unity
+--- !u!4 &869881832
+=======
+--- !u!4 &780186331
+>>>>>>> parent of df36b15... Do a heckin healthbar, fix pls jojo:SubmarineProject/Assets/Scenes/Main_Dev.unity
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD:SubmarineProject/Assets/Scenes/Devon.unity
+  m_GameObject: {fileID: 869881831}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: -20, z: 22.005}
+  m_LocalScale: {x: 2.5, y: 1, z: 5}
+  m_Children: []
+  m_Father: {fileID: 740840402}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!64 &869881833
+MeshCollider:
+=======
+  m_GameObject: {fileID: 780186330}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 10.049583, y: -0.4354565, z: 2.5886793}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 573288153}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &780186332
+BoxCollider:
+>>>>>>> parent of df36b15... Do a heckin healthbar, fix pls jojo:SubmarineProject/Assets/Scenes/Main_Dev.unity
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD:SubmarineProject/Assets/Scenes/Devon.unity
+  m_GameObject: {fileID: 869881831}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!23 &869881834
+=======
+  m_GameObject: {fileID: 780186330}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &780186333
+>>>>>>> parent of df36b15... Do a heckin healthbar, fix pls jojo:SubmarineProject/Assets/Scenes/Main_Dev.unity
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD:SubmarineProject/Assets/Scenes/Devon.unity
+  m_GameObject: {fileID: 869881831}
+=======
+  m_GameObject: {fileID: 780186330}
+>>>>>>> parent of df36b15... Do a heckin healthbar, fix pls jojo:SubmarineProject/Assets/Scenes/Main_Dev.unity
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+<<<<<<< HEAD:SubmarineProject/Assets/Scenes/Devon.unity
+--- !u!33 &869881835
+=======
+--- !u!33 &780186334
+>>>>>>> parent of df36b15... Do a heckin healthbar, fix pls jojo:SubmarineProject/Assets/Scenes/Main_Dev.unity
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD:SubmarineProject/Assets/Scenes/Devon.unity
+  m_GameObject: {fileID: 869881831}
+  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &889019503
+=======
   m_GameObject: {fileID: 780186330}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &787218797
@@ -3321,6 +3652,7 @@ SphereCollider:
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &869881831
+>>>>>>> parent of df36b15... Do a heckin healthbar, fix pls jojo:SubmarineProject/Assets/Scenes/Main_Dev.unity
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3328,6 +3660,15 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
+<<<<<<< HEAD:SubmarineProject/Assets/Scenes/Devon.unity
+  - component: {fileID: 889019504}
+  - component: {fileID: 889019507}
+  - component: {fileID: 889019506}
+  - component: {fileID: 889019505}
+  m_Layer: 0
+  m_Name: ductTapePickUp
+  m_TagString: ductTapePickUp
+=======
   - component: {fileID: 869881832}
   - component: {fileID: 869881835}
   - component: {fileID: 869881834}
@@ -3335,16 +3676,33 @@ GameObject:
   m_Layer: 0
   m_Name: Plane
   m_TagString: Untagged
+>>>>>>> parent of df36b15... Do a heckin healthbar, fix pls jojo:SubmarineProject/Assets/Scenes/Main_Dev.unity
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< HEAD:SubmarineProject/Assets/Scenes/Devon.unity
+--- !u!4 &889019504
+=======
 --- !u!4 &869881832
+>>>>>>> parent of df36b15... Do a heckin healthbar, fix pls jojo:SubmarineProject/Assets/Scenes/Main_Dev.unity
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD:SubmarineProject/Assets/Scenes/Devon.unity
+  m_GameObject: {fileID: 889019503}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -3.1195831, y: -2.4045434, z: 10.40132}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1982279062}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &889019505
+BoxCollider:
+=======
   m_GameObject: {fileID: 869881831}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: -20, z: 22.005}
@@ -3355,10 +3713,21 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!64 &869881833
 MeshCollider:
+>>>>>>> parent of df36b15... Do a heckin healthbar, fix pls jojo:SubmarineProject/Assets/Scenes/Main_Dev.unity
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD:SubmarineProject/Assets/Scenes/Devon.unity
+  m_GameObject: {fileID: 889019503}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &889019506
+=======
   m_GameObject: {fileID: 869881831}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
@@ -3368,12 +3737,17 @@ MeshCollider:
   m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!23 &869881834
+>>>>>>> parent of df36b15... Do a heckin healthbar, fix pls jojo:SubmarineProject/Assets/Scenes/Main_Dev.unity
 MeshRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD:SubmarineProject/Assets/Scenes/Devon.unity
+  m_GameObject: {fileID: 889019503}
+=======
   m_GameObject: {fileID: 869881831}
+>>>>>>> parent of df36b15... Do a heckin healthbar, fix pls jojo:SubmarineProject/Assets/Scenes/Main_Dev.unity
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -3406,15 +3780,25 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+<<<<<<< HEAD:SubmarineProject/Assets/Scenes/Devon.unity
+--- !u!33 &889019507
+=======
 --- !u!33 &869881835
+>>>>>>> parent of df36b15... Do a heckin healthbar, fix pls jojo:SubmarineProject/Assets/Scenes/Main_Dev.unity
 MeshFilter:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD:SubmarineProject/Assets/Scenes/Devon.unity
+  m_GameObject: {fileID: 889019503}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &952614661
+=======
   m_GameObject: {fileID: 869881831}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &889019503
+>>>>>>> parent of df36b15... Do a heckin healthbar, fix pls jojo:SubmarineProject/Assets/Scenes/Main_Dev.unity
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3422,6 +3806,13 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
+<<<<<<< HEAD:SubmarineProject/Assets/Scenes/Devon.unity
+  - component: {fileID: 952614662}
+  - component: {fileID: 952614663}
+  m_Layer: 0
+  m_Name: Leak2
+  m_TagString: Untagged
+=======
   - component: {fileID: 889019504}
   - component: {fileID: 889019507}
   - component: {fileID: 889019506}
@@ -3429,16 +3820,33 @@ GameObject:
   m_Layer: 0
   m_Name: ductTapePickUp
   m_TagString: ductTapePickUp
+>>>>>>> parent of df36b15... Do a heckin healthbar, fix pls jojo:SubmarineProject/Assets/Scenes/Main_Dev.unity
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< HEAD:SubmarineProject/Assets/Scenes/Devon.unity
+--- !u!4 &952614662
+=======
 --- !u!4 &889019504
+>>>>>>> parent of df36b15... Do a heckin healthbar, fix pls jojo:SubmarineProject/Assets/Scenes/Main_Dev.unity
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD:SubmarineProject/Assets/Scenes/Devon.unity
+  m_GameObject: {fileID: 952614661}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1522299001}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!135 &952614663
+SphereCollider:
+=======
   m_GameObject: {fileID: 889019503}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -3.1195831, y: -2.4045434, z: 10.40132}
@@ -3449,15 +3857,25 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &889019505
 BoxCollider:
+>>>>>>> parent of df36b15... Do a heckin healthbar, fix pls jojo:SubmarineProject/Assets/Scenes/Main_Dev.unity
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD:SubmarineProject/Assets/Scenes/Devon.unity
+  m_GameObject: {fileID: 952614661}
+=======
   m_GameObject: {fileID: 889019503}
+>>>>>>> parent of df36b15... Do a heckin healthbar, fix pls jojo:SubmarineProject/Assets/Scenes/Main_Dev.unity
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
+<<<<<<< HEAD:SubmarineProject/Assets/Scenes/Devon.unity
+  m_Radius: 0.5
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!1 &961974607
+=======
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &889019506
@@ -3508,6 +3926,7 @@ MeshFilter:
   m_GameObject: {fileID: 889019503}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &952614661
+>>>>>>> parent of df36b15... Do a heckin healthbar, fix pls jojo:SubmarineProject/Assets/Scenes/Main_Dev.unity
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3515,6 +3934,11 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
+<<<<<<< HEAD:SubmarineProject/Assets/Scenes/Devon.unity
+  - component: {fileID: 961974608}
+  - component: {fileID: 961974609}
+  m_Layer: 0
+=======
   - component: {fileID: 952614662}
   - component: {fileID: 952614663}
   m_Layer: 0
@@ -3562,6 +3986,7 @@ GameObject:
   - component: {fileID: 961974608}
   - component: {fileID: 961974609}
   m_Layer: 0
+>>>>>>> parent of df36b15... Do a heckin healthbar, fix pls jojo:SubmarineProject/Assets/Scenes/Main_Dev.unity
   m_Name: Leak1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3581,6 +4006,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1522299001}
   m_RootOrder: 1
+<<<<<<< HEAD:SubmarineProject/Assets/Scenes/Devon.unity
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!135 &961974609
 SphereCollider:
@@ -3630,17 +4056,27 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &1037450051
 BoxCollider:
+=======
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!135 &961974609
+SphereCollider:
+>>>>>>> parent of df36b15... Do a heckin healthbar, fix pls jojo:SubmarineProject/Assets/Scenes/Main_Dev.unity
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD:SubmarineProject/Assets/Scenes/Devon.unity
   m_GameObject: {fileID: 1037450049}
+=======
+  m_GameObject: {fileID: 961974607}
+>>>>>>> parent of df36b15... Do a heckin healthbar, fix pls jojo:SubmarineProject/Assets/Scenes/Main_Dev.unity
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD:SubmarineProject/Assets/Scenes/Devon.unity
 --- !u!23 &1037450052
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -3689,6 +4125,9 @@ MeshFilter:
   m_GameObject: {fileID: 1037450049}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &1149734723
+=======
+--- !u!1 &1037450049
+>>>>>>> parent of df36b15... Do a heckin healthbar, fix pls jojo:SubmarineProject/Assets/Scenes/Main_Dev.unity
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3696,16 +4135,197 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
+<<<<<<< HEAD:SubmarineProject/Assets/Scenes/Devon.unity
   - component: {fileID: 1149734726}
   - component: {fileID: 1149734725}
   - component: {fileID: 1149734724}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
+=======
+  - component: {fileID: 1037450050}
+  - component: {fileID: 1037450053}
+  - component: {fileID: 1037450052}
+  - component: {fileID: 1037450051}
+  m_Layer: 0
+  m_Name: fireExPickUp
+  m_TagString: fireExPickUp
+>>>>>>> parent of df36b15... Do a heckin healthbar, fix pls jojo:SubmarineProject/Assets/Scenes/Main_Dev.unity
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< HEAD:SubmarineProject/Assets/Scenes/Devon.unity
+--- !u!81 &1149734724
+AudioListener:
+=======
+--- !u!4 &1037450050
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1037450049}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -3.1195831, y: -2.4045434, z: 6.93}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1982279062}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &1037450051
+BoxCollider:
+>>>>>>> parent of df36b15... Do a heckin healthbar, fix pls jojo:SubmarineProject/Assets/Scenes/Main_Dev.unity
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD:SubmarineProject/Assets/Scenes/Devon.unity
+  m_GameObject: {fileID: 1149734723}
+  m_Enabled: 1
+--- !u!20 &1149734725
+Camera:
+=======
+  m_GameObject: {fileID: 1037450049}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &1037450052
+MeshRenderer:
+>>>>>>> parent of df36b15... Do a heckin healthbar, fix pls jojo:SubmarineProject/Assets/Scenes/Main_Dev.unity
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD:SubmarineProject/Assets/Scenes/Devon.unity
+  m_GameObject: {fileID: 1149734723}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_ClearFlags: 1
+  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_projectionMatrixMode: 1
+  m_GateFitMode: 2
+  m_FOVAxisMode: 0
+  m_SensorSize: {x: 36, y: 24}
+  m_LensShift: {x: 0, y: 0}
+  m_FocalLength: 50
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: 0.3
+  far clip plane: 1000
+  field of view: 60
+  orthographic: 0
+  orthographic size: 5
+  m_Depth: -1
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 0
+  m_TargetEye: 3
+  m_HDR: 1
+  m_AllowMSAA: 1
+  m_AllowDynamicResolution: 0
+  m_ForceIntoRT: 0
+  m_OcclusionCulling: 1
+  m_StereoConvergence: 10
+  m_StereoSeparation: 0.022
+--- !u!4 &1149734726
+Transform:
+=======
+  m_GameObject: {fileID: 1037450049}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &1037450053
+MeshFilter:
+>>>>>>> parent of df36b15... Do a heckin healthbar, fix pls jojo:SubmarineProject/Assets/Scenes/Main_Dev.unity
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD:SubmarineProject/Assets/Scenes/Devon.unity
+  m_GameObject: {fileID: 1149734723}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -5.8395863, y: -2.7345436, z: -8.972118}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1982279062}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1181641975
+=======
+  m_GameObject: {fileID: 1037450049}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1149734723
+>>>>>>> parent of df36b15... Do a heckin healthbar, fix pls jojo:SubmarineProject/Assets/Scenes/Main_Dev.unity
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+<<<<<<< HEAD:SubmarineProject/Assets/Scenes/Devon.unity
+  - component: {fileID: 1181641976}
+  - component: {fileID: 1181641979}
+  - component: {fileID: 1181641978}
+  - component: {fileID: 1181641977}
+  m_Layer: 0
+  m_Name: Wall
+  m_TagString: Untagged
+=======
+  - component: {fileID: 1149734726}
+  - component: {fileID: 1149734725}
+  - component: {fileID: 1149734724}
+  m_Layer: 0
+  m_Name: Main Camera
+  m_TagString: MainCamera
+>>>>>>> parent of df36b15... Do a heckin healthbar, fix pls jojo:SubmarineProject/Assets/Scenes/Main_Dev.unity
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+<<<<<<< HEAD:SubmarineProject/Assets/Scenes/Devon.unity
+--- !u!4 &1181641976
+=======
 --- !u!81 &1149734724
 AudioListener:
   m_ObjectHideFlags: 0
@@ -3758,11 +4378,19 @@ Camera:
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
 --- !u!4 &1149734726
+>>>>>>> parent of df36b15... Do a heckin healthbar, fix pls jojo:SubmarineProject/Assets/Scenes/Main_Dev.unity
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD:SubmarineProject/Assets/Scenes/Devon.unity
+  m_GameObject: {fileID: 1181641975}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -12, y: -10.9, z: 22.2}
+  m_LocalScale: {x: 1, y: 21.54, z: 54.62}
+  m_Children: []
+=======
   m_GameObject: {fileID: 1149734723}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -5.8395863, y: -2.7345436, z: -8.972118}
@@ -3801,6 +4429,7 @@ Transform:
   m_LocalPosition: {x: -12, y: -10.9, z: 22.2}
   m_LocalScale: {x: 1, y: 21.54, z: 54.62}
   m_Children: []
+>>>>>>> parent of df36b15... Do a heckin healthbar, fix pls jojo:SubmarineProject/Assets/Scenes/Main_Dev.unity
   m_Father: {fileID: 740840402}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -4175,6 +4804,7 @@ MeshFilter:
   m_GameObject: {fileID: 1398564412}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!4 &1398564416
+<<<<<<< HEAD:SubmarineProject/Assets/Scenes/Devon.unity
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4206,11 +4836,14 @@ GameObject:
   m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1401490346
+=======
+>>>>>>> parent of df36b15... Do a heckin healthbar, fix pls jojo:SubmarineProject/Assets/Scenes/Main_Dev.unity
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD:SubmarineProject/Assets/Scenes/Devon.unity
   m_GameObject: {fileID: 1401490345}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -2, y: 0, z: 0}
@@ -4233,6 +4866,17 @@ SphereCollider:
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1474857185
+=======
+  m_GameObject: {fileID: 1398564412}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -5.4384623, y: -3.5044556, z: 0.4656973}
+  m_LocalScale: {x: 3, y: 1, z: 3}
+  m_Children: []
+  m_Father: {fileID: 1982279062}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1401490345
+>>>>>>> parent of df36b15... Do a heckin healthbar, fix pls jojo:SubmarineProject/Assets/Scenes/Main_Dev.unity
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4240,6 +4884,7 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
+<<<<<<< HEAD:SubmarineProject/Assets/Scenes/Devon.unity
   - component: {fileID: 1474857186}
   - component: {fileID: 1474857189}
   - component: {fileID: 1474857188}
@@ -4247,16 +4892,28 @@ GameObject:
   m_Layer: 0
   m_Name: fireEx
   m_TagString: fireEx
+=======
+  - component: {fileID: 1401490346}
+  - component: {fileID: 1401490347}
+  m_Layer: 0
+  m_Name: Leak0
+  m_TagString: Untagged
+>>>>>>> parent of df36b15... Do a heckin healthbar, fix pls jojo:SubmarineProject/Assets/Scenes/Main_Dev.unity
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< HEAD:SubmarineProject/Assets/Scenes/Devon.unity
 --- !u!4 &1474857186
+=======
+--- !u!4 &1401490346
+>>>>>>> parent of df36b15... Do a heckin healthbar, fix pls jojo:SubmarineProject/Assets/Scenes/Main_Dev.unity
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD:SubmarineProject/Assets/Scenes/Devon.unity
   m_GameObject: {fileID: 1474857185}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -5.44, y: 0, z: -0.12}
@@ -4267,15 +4924,32 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &1474857187
 BoxCollider:
+=======
+  m_GameObject: {fileID: 1401490345}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -2, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1522299001}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!135 &1401490347
+SphereCollider:
+>>>>>>> parent of df36b15... Do a heckin healthbar, fix pls jojo:SubmarineProject/Assets/Scenes/Main_Dev.unity
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD:SubmarineProject/Assets/Scenes/Devon.unity
   m_GameObject: {fileID: 1474857185}
+=======
+  m_GameObject: {fileID: 1401490345}
+>>>>>>> parent of df36b15... Do a heckin healthbar, fix pls jojo:SubmarineProject/Assets/Scenes/Main_Dev.unity
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
+<<<<<<< HEAD:SubmarineProject/Assets/Scenes/Devon.unity
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1474857188
@@ -4323,6 +4997,164 @@ MeshFilter:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1474857185}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1522299000
+=======
+  m_Radius: 0.5
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!1 &1474857185
+>>>>>>> parent of df36b15... Do a heckin healthbar, fix pls jojo:SubmarineProject/Assets/Scenes/Main_Dev.unity
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+<<<<<<< HEAD:SubmarineProject/Assets/Scenes/Devon.unity
+  - component: {fileID: 1522299001}
+  - component: {fileID: 1522299002}
+  m_Layer: 0
+  m_Name: Leak
+  m_TagString: Untagged
+=======
+  - component: {fileID: 1474857186}
+  - component: {fileID: 1474857189}
+  - component: {fileID: 1474857188}
+  - component: {fileID: 1474857187}
+  m_Layer: 0
+  m_Name: fireEx
+  m_TagString: fireEx
+>>>>>>> parent of df36b15... Do a heckin healthbar, fix pls jojo:SubmarineProject/Assets/Scenes/Main_Dev.unity
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+<<<<<<< HEAD:SubmarineProject/Assets/Scenes/Devon.unity
+--- !u!4 &1522299001
+=======
+--- !u!4 &1474857186
+>>>>>>> parent of df36b15... Do a heckin healthbar, fix pls jojo:SubmarineProject/Assets/Scenes/Main_Dev.unity
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD:SubmarineProject/Assets/Scenes/Devon.unity
+  m_GameObject: {fileID: 1522299000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1401490346}
+  - {fileID: 961974608}
+  - {fileID: 952614662}
+  - {fileID: 1666009225}
+  - {fileID: 1636142482}
+  m_Father: {fileID: 617546750}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1522299002
+MonoBehaviour:
+=======
+  m_GameObject: {fileID: 1474857185}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -5.44, y: 0, z: -0.12}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 331288166}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &1474857187
+BoxCollider:
+>>>>>>> parent of df36b15... Do a heckin healthbar, fix pls jojo:SubmarineProject/Assets/Scenes/Main_Dev.unity
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD:SubmarineProject/Assets/Scenes/Devon.unity
+  m_GameObject: {fileID: 1522299000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ae34661a054fe547beecb545b290312, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damages: []
+--- !u!1 &1555545513
+GameObject:
+=======
+  m_GameObject: {fileID: 1474857185}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &1474857188
+MeshRenderer:
+>>>>>>> parent of df36b15... Do a heckin healthbar, fix pls jojo:SubmarineProject/Assets/Scenes/Main_Dev.unity
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD:SubmarineProject/Assets/Scenes/Devon.unity
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1555545514}
+  - component: {fileID: 1555545515}
+  m_Layer: 0
+  m_Name: Pipe2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1555545514
+Transform:
+=======
+  m_GameObject: {fileID: 1474857185}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &1474857189
+MeshFilter:
+>>>>>>> parent of df36b15... Do a heckin healthbar, fix pls jojo:SubmarineProject/Assets/Scenes/Main_Dev.unity
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD:SubmarineProject/Assets/Scenes/Devon.unity
+=======
   m_GameObject: {fileID: 1474857185}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &1522299000
@@ -4397,6 +5229,7 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+>>>>>>> parent of df36b15... Do a heckin healthbar, fix pls jojo:SubmarineProject/Assets/Scenes/Main_Dev.unity
   m_GameObject: {fileID: 1555545513}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
@@ -4484,6 +5317,9 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< HEAD:SubmarineProject/Assets/Scenes/Devon.unity
+>>>>>>> parent of df36b15... Do a heckin healthbar, fix pls jojo:SubmarineProject/Assets/Scenes/Main_Dev.unity
+=======
 >>>>>>> parent of df36b15... Do a heckin healthbar, fix pls jojo:SubmarineProject/Assets/Scenes/Main_Dev.unity
 --- !u!4 &1595409989
 Transform:
@@ -4770,6 +5606,7 @@ Transform:
   m_Father: {fileID: 1522299001}
   m_RootOrder: 4
 <<<<<<< HEAD:SubmarineProject/Assets/Scenes/Devon.unity
+<<<<<<< HEAD:SubmarineProject/Assets/Scenes/Devon.unity
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!135 &1636142483
 SphereCollider:
@@ -4820,13 +5657,21 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!135 &1636142483
 >>>>>>> parent of df36b15... Do a heckin healthbar, fix pls jojo:SubmarineProject/Assets/Scenes/Main_Dev.unity
+=======
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!135 &1636142483
+>>>>>>> parent of df36b15... Do a heckin healthbar, fix pls jojo:SubmarineProject/Assets/Scenes/Main_Dev.unity
 SphereCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD:SubmarineProject/Assets/Scenes/Devon.unity
+<<<<<<< HEAD:SubmarineProject/Assets/Scenes/Devon.unity
   m_GameObject: {fileID: 1666009224}
+=======
+  m_GameObject: {fileID: 1636142481}
+>>>>>>> parent of df36b15... Do a heckin healthbar, fix pls jojo:SubmarineProject/Assets/Scenes/Main_Dev.unity
 =======
   m_GameObject: {fileID: 1636142481}
 >>>>>>> parent of df36b15... Do a heckin healthbar, fix pls jojo:SubmarineProject/Assets/Scenes/Main_Dev.unity
@@ -4837,7 +5682,11 @@ SphereCollider:
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
 <<<<<<< HEAD:SubmarineProject/Assets/Scenes/Devon.unity
+<<<<<<< HEAD:SubmarineProject/Assets/Scenes/Devon.unity
 --- !u!1 &1806804935
+=======
+--- !u!1 &1666009224
+>>>>>>> parent of df36b15... Do a heckin healthbar, fix pls jojo:SubmarineProject/Assets/Scenes/Main_Dev.unity
 =======
 --- !u!1 &1666009224
 >>>>>>> parent of df36b15... Do a heckin healthbar, fix pls jojo:SubmarineProject/Assets/Scenes/Main_Dev.unity
@@ -4849,6 +5698,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
 <<<<<<< HEAD:SubmarineProject/Assets/Scenes/Devon.unity
+<<<<<<< HEAD:SubmarineProject/Assets/Scenes/Devon.unity
   - component: {fileID: 1806804936}
   - component: {fileID: 1806804939}
   - component: {fileID: 1806804938}
@@ -4856,10 +5706,15 @@ GameObject:
   m_Layer: 0
   m_Name: Wall (1)
 =======
+=======
+>>>>>>> parent of df36b15... Do a heckin healthbar, fix pls jojo:SubmarineProject/Assets/Scenes/Main_Dev.unity
   - component: {fileID: 1666009225}
   - component: {fileID: 1666009226}
   m_Layer: 0
   m_Name: Leak3
+<<<<<<< HEAD:SubmarineProject/Assets/Scenes/Devon.unity
+>>>>>>> parent of df36b15... Do a heckin healthbar, fix pls jojo:SubmarineProject/Assets/Scenes/Main_Dev.unity
+=======
 >>>>>>> parent of df36b15... Do a heckin healthbar, fix pls jojo:SubmarineProject/Assets/Scenes/Main_Dev.unity
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4867,7 +5722,11 @@ GameObject:
   m_StaticEditorFlags: 0
   m_IsActive: 1
 <<<<<<< HEAD:SubmarineProject/Assets/Scenes/Devon.unity
+<<<<<<< HEAD:SubmarineProject/Assets/Scenes/Devon.unity
 --- !u!4 &1806804936
+=======
+--- !u!4 &1666009225
+>>>>>>> parent of df36b15... Do a heckin healthbar, fix pls jojo:SubmarineProject/Assets/Scenes/Main_Dev.unity
 =======
 --- !u!4 &1666009225
 >>>>>>> parent of df36b15... Do a heckin healthbar, fix pls jojo:SubmarineProject/Assets/Scenes/Main_Dev.unity
@@ -4876,6 +5735,7 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD:SubmarineProject/Assets/Scenes/Devon.unity
 <<<<<<< HEAD:SubmarineProject/Assets/Scenes/Devon.unity
   m_GameObject: {fileID: 1806804935}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
@@ -4940,6 +5800,8 @@ MeshRenderer:
 --- !u!33 &1806804939
 MeshFilter:
 =======
+=======
+>>>>>>> parent of df36b15... Do a heckin healthbar, fix pls jojo:SubmarineProject/Assets/Scenes/Main_Dev.unity
   m_GameObject: {fileID: 1666009224}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 1, y: 0, z: 0}
@@ -4950,6 +5812,7 @@ MeshFilter:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!135 &1666009226
 SphereCollider:
+<<<<<<< HEAD:SubmarineProject/Assets/Scenes/Devon.unity
 >>>>>>> parent of df36b15... Do a heckin healthbar, fix pls jojo:SubmarineProject/Assets/Scenes/Main_Dev.unity
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4991,13 +5854,21 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!135 &1842501379
 SphereCollider:
+=======
+>>>>>>> parent of df36b15... Do a heckin healthbar, fix pls jojo:SubmarineProject/Assets/Scenes/Main_Dev.unity
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD:SubmarineProject/Assets/Scenes/Devon.unity
   m_GameObject: {fileID: 1842501377}
   m_Material: {fileID: 0}
   m_IsTrigger: 1
+=======
+  m_GameObject: {fileID: 1666009224}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+>>>>>>> parent of df36b15... Do a heckin healthbar, fix pls jojo:SubmarineProject/Assets/Scenes/Main_Dev.unity
 =======
   m_GameObject: {fileID: 1666009224}
   m_Material: {fileID: 0}
@@ -5007,6 +5878,7 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD:SubmarineProject/Assets/Scenes/Devon.unity
 <<<<<<< HEAD:SubmarineProject/Assets/Scenes/Devon.unity
 <<<<<<< HEAD:SubmarineProject/Assets/Scenes/Main_Dev.unity
 --- !u!1001 &1932755314
@@ -5133,6 +6005,8 @@ PrefabInstance:
 --- !u!1 &1850422804
 >>>>>>> parent of df36b15... Do a heckin healthbar, fix pls jojo:SubmarineProject/Assets/Scenes/Devon.unity
 =======
+=======
+>>>>>>> parent of df36b15... Do a heckin healthbar, fix pls jojo:SubmarineProject/Assets/Scenes/Main_Dev.unity
 --- !u!1 &1806804935
 >>>>>>> parent of df36b15... Do a heckin healthbar, fix pls jojo:SubmarineProject/Assets/Scenes/Main_Dev.unity
 GameObject:
@@ -5228,7 +6102,11 @@ MeshFilter:
   m_GameObject: {fileID: 1850422804}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 <<<<<<< HEAD:SubmarineProject/Assets/Scenes/Devon.unity
+<<<<<<< HEAD:SubmarineProject/Assets/Scenes/Devon.unity
 --- !u!1 &1934707710
+=======
+--- !u!1 &1842501377
+>>>>>>> parent of df36b15... Do a heckin healthbar, fix pls jojo:SubmarineProject/Assets/Scenes/Main_Dev.unity
 =======
 --- !u!1 &1842501377
 >>>>>>> parent of df36b15... Do a heckin healthbar, fix pls jojo:SubmarineProject/Assets/Scenes/Main_Dev.unity
@@ -5240,10 +6118,17 @@ GameObject:
   serializedVersion: 6
   m_Component:
 <<<<<<< HEAD:SubmarineProject/Assets/Scenes/Devon.unity
+<<<<<<< HEAD:SubmarineProject/Assets/Scenes/Devon.unity
   - component: {fileID: 1934707711}
   - component: {fileID: 1934707712}
   m_Layer: 0
   m_Name: Pipe3
+=======
+  - component: {fileID: 1842501378}
+  - component: {fileID: 1842501379}
+  m_Layer: 0
+  m_Name: Fire1
+>>>>>>> parent of df36b15... Do a heckin healthbar, fix pls jojo:SubmarineProject/Assets/Scenes/Main_Dev.unity
 =======
   - component: {fileID: 1842501378}
   - component: {fileID: 1842501379}
@@ -5256,7 +6141,11 @@ GameObject:
   m_StaticEditorFlags: 0
   m_IsActive: 1
 <<<<<<< HEAD:SubmarineProject/Assets/Scenes/Devon.unity
+<<<<<<< HEAD:SubmarineProject/Assets/Scenes/Devon.unity
 --- !u!4 &1934707711
+=======
+--- !u!4 &1842501378
+>>>>>>> parent of df36b15... Do a heckin healthbar, fix pls jojo:SubmarineProject/Assets/Scenes/Main_Dev.unity
 =======
 --- !u!4 &1842501378
 >>>>>>> parent of df36b15... Do a heckin healthbar, fix pls jojo:SubmarineProject/Assets/Scenes/Main_Dev.unity
@@ -5265,6 +6154,7 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD:SubmarineProject/Assets/Scenes/Devon.unity
 <<<<<<< HEAD:SubmarineProject/Assets/Scenes/Devon.unity
   m_GameObject: {fileID: 1934707710}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
@@ -5285,6 +6175,16 @@ SphereCollider:
   m_Father: {fileID: 1614232909}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+=======
+  m_GameObject: {fileID: 1842501377}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1614232909}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+>>>>>>> parent of df36b15... Do a heckin healthbar, fix pls jojo:SubmarineProject/Assets/Scenes/Main_Dev.unity
 --- !u!135 &1842501379
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -5333,13 +6233,20 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &1850422806
 BoxCollider:
+<<<<<<< HEAD:SubmarineProject/Assets/Scenes/Devon.unity
+>>>>>>> parent of df36b15... Do a heckin healthbar, fix pls jojo:SubmarineProject/Assets/Scenes/Main_Dev.unity
+=======
 >>>>>>> parent of df36b15... Do a heckin healthbar, fix pls jojo:SubmarineProject/Assets/Scenes/Main_Dev.unity
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD:SubmarineProject/Assets/Scenes/Devon.unity
+<<<<<<< HEAD:SubmarineProject/Assets/Scenes/Devon.unity
   m_GameObject: {fileID: 1934707710}
+=======
+  m_GameObject: {fileID: 1850422804}
+>>>>>>> parent of df36b15... Do a heckin healthbar, fix pls jojo:SubmarineProject/Assets/Scenes/Main_Dev.unity
 =======
   m_GameObject: {fileID: 1850422804}
 >>>>>>> parent of df36b15... Do a heckin healthbar, fix pls jojo:SubmarineProject/Assets/Scenes/Main_Dev.unity
@@ -5350,7 +6257,10 @@ BoxCollider:
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 <<<<<<< HEAD:SubmarineProject/Assets/Scenes/Devon.unity
+<<<<<<< HEAD:SubmarineProject/Assets/Scenes/Devon.unity
 =======
+=======
+>>>>>>> parent of df36b15... Do a heckin healthbar, fix pls jojo:SubmarineProject/Assets/Scenes/Main_Dev.unity
 --- !u!23 &1850422807
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -5442,6 +6352,9 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD:SubmarineProject/Assets/Scenes/Devon.unity
+>>>>>>> parent of df36b15... Do a heckin healthbar, fix pls jojo:SubmarineProject/Assets/Scenes/Main_Dev.unity
+=======
 >>>>>>> parent of df36b15... Do a heckin healthbar, fix pls jojo:SubmarineProject/Assets/Scenes/Main_Dev.unity
 --- !u!1 &1982279061
 GameObject:
