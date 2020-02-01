@@ -39,7 +39,7 @@ public class BelPlayer : MonoBehaviour
 		moveY = (Input.GetAxis("MoveY_P" + playerNum) * speed) * Time.deltaTime;
 		cameraX = (Input.GetAxis("CameraX_P" + playerNum) * camSpeed) * Time.deltaTime;
 		cameraY += (Input.GetAxis("CameraY_P" + playerNum) * camSpeed) * Time.deltaTime;
-		cameraY = Mathf.Clamp(cameraY, -45, 45);
+		cameraY = Mathf.Clamp(cameraY, -90, 45);
         //ROTATION / CAMERA CONTROL
 		transform.Rotate(0,cameraX,0);//Rotate player left and right
 		camera.transform.localEulerAngles = new Vector3(cameraY,0,0); //Rotate camera up and down
@@ -49,11 +49,30 @@ public class BelPlayer : MonoBehaviour
 		cc.Move(movin);//the movement itself
 		//REPAIR STUFF
 		look = new Ray(camera.transform.position,camera.transform.forward);
-		if (Physics.Raycast(look, out looking))
+		//set the bullshit
+		if (!rep.fireEx.activeSelf && !rep.wrench.activeSelf && !rep.ductTape.activeSelf)
+		{
+			repType = 0;
+		}
+		else
+		{
+			if (rep.fireEx.activeSelf) { repType = 1; }
+			if (rep.wrench.activeSelf) { repType = 2; }
+			if (rep.ductTape.activeSelf) { repType = 3; }
+		}
+		//Check for damages
+		if (Physics.Raycast(look, out looking, 2.0f))
 		{
 			if (looking.collider != null)
 			{
-				if (button) Debug.Log("ah!");
+				if ((button) && (repType > 0))
+				{
+					if (looking.collider.tag == "Damage")
+					{
+						rep.Use();
+						Debug.Log("ah!");
+					}
+				}
 			}
 		}
     }
