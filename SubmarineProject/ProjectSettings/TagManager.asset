@@ -11,6 +11,8 @@ TagManager:
   - fireEx
   - wrench
   - ductTape
+  - torpedoPickUp
+  - torpedo
   layers:
   - Default
   - TransparentFX
