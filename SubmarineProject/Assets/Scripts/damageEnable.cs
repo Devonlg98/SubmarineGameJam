@@ -27,5 +27,10 @@ public class damageEnable : MonoBehaviour
             activeCount++;
             break;
         }
-    } 
+    }
+	public void getRid()
+	{
+		activeCount--;
+		reset.damageRepair();
+	}
 }

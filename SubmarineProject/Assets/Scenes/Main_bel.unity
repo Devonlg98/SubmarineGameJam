@@ -301,9 +301,10 @@ GameObject:
   m_Component:
   - component: {fileID: 53458618}
   - component: {fileID: 53458619}
+  - component: {fileID: 53458620}
   m_Layer: 0
   m_Name: Fire0
-  m_TagString: Untagged
+  m_TagString: Damage
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -336,6 +337,18 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &53458620
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 53458617}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cb0e475436745a4e9f7e2884e9a53b7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &73242535
 GameObject:
   m_ObjectHideFlags: 0
@@ -531,9 +544,10 @@ GameObject:
   m_Component:
   - component: {fileID: 111130651}
   - component: {fileID: 111130652}
+  - component: {fileID: 111130653}
   m_Layer: 0
   m_Name: Pipe1
-  m_TagString: Untagged
+  m_TagString: Damage
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -566,6 +580,18 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &111130653
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 111130650}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cb0e475436745a4e9f7e2884e9a53b7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &118519392
 GameObject:
   m_ObjectHideFlags: 0
@@ -703,9 +729,10 @@ GameObject:
   m_Component:
   - component: {fileID: 138112189}
   - component: {fileID: 138112190}
+  - component: {fileID: 138112191}
   m_Layer: 0
   m_Name: Leak0
-  m_TagString: Untagged
+  m_TagString: Damage
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -738,6 +765,18 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &138112191
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 138112188}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cb0e475436745a4e9f7e2884e9a53b7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &194333550
 GameObject:
   m_ObjectHideFlags: 0
@@ -1062,7 +1101,7 @@ CharacterController:
   m_Height: 2
   m_Radius: 0.5
   m_SlopeLimit: 45
-  m_StepOffset: 0.3
+  m_StepOffset: 0.1
   m_SkinWidth: 0.08
   m_MinMoveDistance: 0.001
   m_Center: {x: 0, y: 0, z: 0}
@@ -1170,9 +1209,10 @@ GameObject:
   m_Component:
   - component: {fileID: 379629923}
   - component: {fileID: 379629924}
+  - component: {fileID: 379629925}
   m_Layer: 0
   m_Name: Fire1
-  m_TagString: Untagged
+  m_TagString: Damage
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1205,6 +1245,18 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &379629925
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 379629922}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cb0e475436745a4e9f7e2884e9a53b7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &420171708
 GameObject:
   m_ObjectHideFlags: 0
@@ -1308,9 +1360,10 @@ GameObject:
   m_Component:
   - component: {fileID: 486485032}
   - component: {fileID: 486485033}
+  - component: {fileID: 486485034}
   m_Layer: 0
   m_Name: Leak4
-  m_TagString: Untagged
+  m_TagString: Damage
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1343,6 +1396,18 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &486485034
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 486485031}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cb0e475436745a4e9f7e2884e9a53b7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &573288152
 GameObject:
   m_ObjectHideFlags: 0
@@ -1454,7 +1519,7 @@ CharacterController:
   m_Height: 2
   m_Radius: 0.5
   m_SlopeLimit: 45
-  m_StepOffset: 0.3
+  m_StepOffset: 0.1
   m_SkinWidth: 0.08
   m_MinMoveDistance: 0.001
   m_Center: {x: 0, y: 0, z: 0}
@@ -1523,7 +1588,7 @@ CharacterController:
   m_Height: 2
   m_Radius: 0.5
   m_SlopeLimit: 45
-  m_StepOffset: 0.3
+  m_StepOffset: 0.1
   m_SkinWidth: 0.08
   m_MinMoveDistance: 0.001
   m_Center: {x: 0, y: 0, z: 0}
@@ -2654,9 +2719,10 @@ GameObject:
   m_Component:
   - component: {fileID: 823079581}
   - component: {fileID: 823079582}
+  - component: {fileID: 823079583}
   m_Layer: 0
   m_Name: Pipe0
-  m_TagString: Untagged
+  m_TagString: Damage
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2689,6 +2755,18 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &823079583
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 823079580}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cb0e475436745a4e9f7e2884e9a53b7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &839083435
 GameObject:
   m_ObjectHideFlags: 0
@@ -2754,9 +2832,10 @@ GameObject:
   m_Component:
   - component: {fileID: 854293150}
   - component: {fileID: 854293151}
+  - component: {fileID: 854293152}
   m_Layer: 0
   m_Name: Leak3
-  m_TagString: Untagged
+  m_TagString: Damage
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2789,6 +2868,18 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &854293152
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 854293149}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cb0e475436745a4e9f7e2884e9a53b7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &869881831
 GameObject:
   m_ObjectHideFlags: 0
@@ -3172,9 +3263,10 @@ GameObject:
   m_Component:
   - component: {fileID: 906775625}
   - component: {fileID: 906775626}
+  - component: {fileID: 906775627}
   m_Layer: 0
   m_Name: Leak1
-  m_TagString: Untagged
+  m_TagString: Damage
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3207,6 +3299,18 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &906775627
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 906775624}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cb0e475436745a4e9f7e2884e9a53b7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &910728033
 GameObject:
   m_ObjectHideFlags: 0
@@ -3217,9 +3321,10 @@ GameObject:
   m_Component:
   - component: {fileID: 910728034}
   - component: {fileID: 910728035}
+  - component: {fileID: 910728036}
   m_Layer: 0
   m_Name: Pipe2
-  m_TagString: Untagged
+  m_TagString: Damage
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3252,6 +3357,18 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &910728036
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 910728033}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cb0e475436745a4e9f7e2884e9a53b7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &961214199
 GameObject:
   m_ObjectHideFlags: 0
@@ -3600,9 +3717,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1103278018}
   - component: {fileID: 1103278019}
+  - component: {fileID: 1103278020}
   m_Layer: 0
   m_Name: Fire4
-  m_TagString: Untagged
+  m_TagString: Damage
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3635,6 +3753,18 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &1103278020
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1103278017}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cb0e475436745a4e9f7e2884e9a53b7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1149734723
 GameObject:
   m_ObjectHideFlags: 0
@@ -3728,9 +3858,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1174507948}
   - component: {fileID: 1174507949}
+  - component: {fileID: 1174507950}
   m_Layer: 0
   m_Name: Pipe4
-  m_TagString: Untagged
+  m_TagString: Damage
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3763,6 +3894,18 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &1174507950
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1174507947}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cb0e475436745a4e9f7e2884e9a53b7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1181641975
 GameObject:
   m_ObjectHideFlags: 0
@@ -4797,9 +4940,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1343061822}
   - component: {fileID: 1343061823}
+  - component: {fileID: 1343061824}
   m_Layer: 0
   m_Name: Pipe3
-  m_TagString: Untagged
+  m_TagString: Damage
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4832,6 +4976,18 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &1343061824
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1343061821}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cb0e475436745a4e9f7e2884e9a53b7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1412104156
 GameObject:
   m_ObjectHideFlags: 0
@@ -5428,9 +5584,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1561932094}
   - component: {fileID: 1561932095}
+  - component: {fileID: 1561932096}
   m_Layer: 0
   m_Name: Fire2
-  m_TagString: Untagged
+  m_TagString: Damage
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5463,6 +5620,18 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &1561932096
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1561932093}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cb0e475436745a4e9f7e2884e9a53b7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1621409086
 GameObject:
   m_ObjectHideFlags: 0
@@ -5744,9 +5913,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1843918604}
   - component: {fileID: 1843918605}
+  - component: {fileID: 1843918606}
   m_Layer: 0
   m_Name: Fire3
-  m_TagString: Untagged
+  m_TagString: Damage
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5779,6 +5949,18 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &1843918606
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1843918603}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cb0e475436745a4e9f7e2884e9a53b7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1939020850
 GameObject:
   m_ObjectHideFlags: 0
@@ -5789,9 +5971,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1939020851}
   - component: {fileID: 1939020852}
+  - component: {fileID: 1939020853}
   m_Layer: 0
   m_Name: Leak2
-  m_TagString: Untagged
+  m_TagString: Damage
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5824,6 +6007,18 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &1939020853
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1939020850}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cb0e475436745a4e9f7e2884e9a53b7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1973713723
 GameObject:
   m_ObjectHideFlags: 0

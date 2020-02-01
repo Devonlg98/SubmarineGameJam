@@ -39,7 +39,7 @@ public class BelPlayer : MonoBehaviour
 		moveY = (Input.GetAxis("MoveY_P" + playerNum) * speed) * Time.deltaTime;
 		cameraX = (Input.GetAxis("CameraX_P" + playerNum) * camSpeed) * Time.deltaTime;
 		cameraY += (Input.GetAxis("CameraY_P" + playerNum) * camSpeed) * Time.deltaTime;
-		cameraY = Mathf.Clamp(cameraY, -90, 45);
+		cameraY = Mathf.Clamp(cameraY, -90, 75);
         //ROTATION / CAMERA CONTROL
 		transform.Rotate(0,cameraX,0);//Rotate player left and right
 		camera.transform.localEulerAngles = new Vector3(cameraY,0,0); //Rotate camera up and down
@@ -70,6 +70,7 @@ public class BelPlayer : MonoBehaviour
 					if (looking.collider.tag == "Damage")
 					{
 						rep.Use();
+						looking.collider.GetComponent<damageFixer>().Fix();
 						Debug.Log("ah!");
 					}
 				}
