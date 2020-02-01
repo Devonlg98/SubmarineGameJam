@@ -4,48 +4,51 @@ using UnityEngine;
 
 public class SubMovement : MonoBehaviour
 {
+    private damageManager damageScript;
+    private LaunchTorpedo torpedoScript;
     private Rigidbody subBody;
-    private float moveSpeed = 10;
+    private float moveSpeed = 30;
     private float moveAcceleration = 0f;
-    private float turnSpeed = 0.25f;
-    private float xTurnAcceleration = 0f;
-    private float yTurnAcceleration = 0f;
+    private float xTurnSpeed = 10f;
+    private float zTurnSpeed = 2f;
     // Start is called before the first frame update
     void Start()
     {
+        damageScript = FindObjectOfType<damageManager>();
         subBody = gameObject.GetComponent<Rigidbody>();
     }
 
     // Update is called once per frame
     void Update()
     {
+        if (Input.GetButtonDown("Fire1"))
+        {
+            torpedoScript.Launch();
+        }
         moveAcceleration += Time.deltaTime;
-        Mathf.Clamp(moveAcceleration, -12, 20);
-        subBody.velocity = transform.TransformDirection(0, moveSpeed + moveAcceleration, 0);
-        if (Input.GetAxis("Vertical") != 0)
+        Mathf.Clamp(moveAcceleration, -30, 50);
+        subBody.AddRelativeForce(0, 0, moveSpeed + moveAcceleration, ForceMode.Force);
+        float xAxis = transform.localEulerAngles.x;
+        if (xAxis > 180)
         {
-            xTurnAcceleration += Input.GetAxis("Vertical") * Time.deltaTime;
-            Mathf.Clamp(xTurnAcceleration, -0.1f, 0.1f);
+            xAxis -= 360;
         }
-        else
+        float zAxis = transform.localEulerAngles.z;
+        if (zAxis > 180)
         {
-            xTurnAcceleration *= Time.deltaTime;
+            zAxis -= 360;
         }
-        if (Input.GetAxis("Horizontal") != 0)
-        {
-            yTurnAcceleration += Input.GetAxis("Horizontal") * Time.deltaTime;
-            Mathf.Clamp(yTurnAcceleration, -0.1f, 0.1f);
-        }
-        else
-        {
-            yTurnAcceleration *= Time.deltaTime;
-        }
-        subBody.angularVelocity = transform.TransformDirection((-Input.GetAxis("Vertical") * turnSpeed - xTurnAcceleration) + ((90 - transform.localRotation.eulerAngles.x) * (90 - transform.localRotation.eulerAngles.x) / 1000), 0, 0) +
-            new Vector3 (0, Input.GetAxis("Horizontal") * turnSpeed + yTurnAcceleration, 0);
+        print(zAxis);
+        subBody.angularDrag = (Mathf.Abs(xAxis + zAxis) + 0.5f) / 10;
+        subBody.AddTorque(transform.TransformDirection(-Input.GetAxis("Vertical") * xTurnSpeed, 0, -zAxis) +
+            new Vector3(0, Input.GetAxis("Horizontal") * zTurnSpeed, 0), ForceMode.Force);
+        subBody.AddTorque(-xAxis / 3, 0, 0, ForceMode.Force);
     }
 
     private void OnCollisionEnter(Collision collision)
     {
-        moveAcceleration = -12;
+        ContactPoint point = collision.GetContact(0);
+        subBody.AddExplosionForce(30, point.point, 100, 0, ForceMode.Impulse);
+        damageScript.createDamage();
     }
 }
