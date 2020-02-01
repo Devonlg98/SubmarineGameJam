@@ -5,6 +5,12 @@ TagManager:
   serializedVersion: 2
   tags:
   - Damage
+  - fireExPickUp
+  - wrenchPickUp
+  - ductTapePickUp
+  - fireEx
+  - wrench
+  - ductTape
   layers:
   - Default
   - TransparentFX
