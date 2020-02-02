@@ -4,14 +4,23 @@ using UnityEngine;
 
 public class Torpedo : MonoBehaviour
 {
+    Rigidbody torpedo;
+
+    void Start()
+    {
+        torpedo = gameObject.GetComponent<Rigidbody>();
+    }
     // Update is called once per frame
     void Update()
     {
-        transform.position += transform.up * 5;
+        torpedo.AddRelativeForce(0, 30, 0);
     }
     private void OnCollisionEnter(Collision collision)
     {
-        //Torpedo explodes and destroys the any obstacles it hits.
+        if (collision.gameObject.CompareTag("obstacle"))
+        {
+            Destroy(collision.gameObject);
+        }
         Destroy(gameObject);
     }
 }
