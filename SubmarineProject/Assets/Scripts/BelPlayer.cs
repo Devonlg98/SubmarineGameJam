@@ -44,13 +44,21 @@ public class BelPlayer : MonoBehaviour
 		transform.Rotate(0,cameraX,0);//Rotate player left and right
 		camera.transform.localEulerAngles = new Vector3(cameraY,0,0); //Rotate camera up and down
 		//MOVEMENT
+		if (repType == 4)
+		{
+			speedMult = 0.5f;
+		}
+		else
+		{
+			speedMult = 1.0f;
+		}
 		Vector3 movin = new Vector3((moveX)*speedMult,0,(moveY)*speedMult);
 		movin = this.transform.TransformDirection(movin); //make sure it points in the rotation direction!
 		cc.Move(movin);//the movement itself
 		//REPAIR STUFF
 		look = new Ray(camera.transform.position,camera.transform.forward);
 		//set the bullshit
-		if (!rep.fireEx.activeSelf && !rep.wrench.activeSelf && !rep.ductTape.activeSelf)
+		if (!rep.fireEx.activeSelf && !rep.wrench.activeSelf && !rep.ductTape.activeSelf && !rep.torpedo.activeSelf)
 		{
 			repType = 0;
 		}
@@ -59,19 +67,48 @@ public class BelPlayer : MonoBehaviour
 			if (rep.fireEx.activeSelf) { repType = 1; }
 			if (rep.wrench.activeSelf) { repType = 2; }
 			if (rep.ductTape.activeSelf) { repType = 3; }
+			if (rep.torpedo.activeSelf) { repType = 4; }
 		}
 		//Check for damages
 		if (Physics.Raycast(look, out looking, 2.0f))
 		{
 			if (looking.collider != null)
 			{
-				if ((button) && (repType > 0))
+				if ((button))
 				{
-					if (looking.collider.tag == "Damage")
+					if ((repType > 0) && (repType < 4) && (looking.collider.tag == "Damage"))
 					{
 						rep.Use();
-						looking.collider.GetComponent<damageFixer>().Fix();
-						Debug.Log("ah!");
+						if ((repType == 1 && looking.collider.transform.parent.tag == "fireEx") ||
+							(repType == 2 && looking.collider.transform.parent.tag == "wrench") ||
+							(repType == 3 && looking.collider.transform.parent.tag == "ductTape"))
+						{
+							looking.collider.GetComponent<damageFixer>().Fix();
+							Debug.Log("all better!");
+						}
+						else
+						{
+							Debug.Log("uh oh!");
+						}
+					}
+					if ((repType != 4))
+					{
+						if ((looking.collider.tag == "fireExPickUp"))
+						{
+							rep.Pickup(1);
+						}
+						if ((looking.collider.tag == "wrenchPickUp"))
+						{
+							rep.Pickup(2);
+						}
+						if ((looking.collider.tag == "ductTapePickUp"))
+						{
+							rep.Pickup(3);
+						}
+						if ((looking.collider.tag == "torpedoPickUp"))
+						{
+							rep.Pickup(4);
+						}
 					}
 				}
 			}
