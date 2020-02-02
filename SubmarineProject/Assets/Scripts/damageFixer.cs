@@ -5,6 +5,7 @@ using UnityEngine;
 public class damageFixer : MonoBehaviour
 {
 	private damageEnable en;
+	public BelHealth hh;
     // Start is called before the first frame update
     void Start()
     {
@@ -20,6 +21,6 @@ public class damageFixer : MonoBehaviour
 	{
 		gameObject.SetActive(false);
 		en.getRid();
-		
+		hh.hp++;
 	}
 }
