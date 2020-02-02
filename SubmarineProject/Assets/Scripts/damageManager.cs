@@ -5,7 +5,7 @@ using UnityEngine;
 public class damageManager : MonoBehaviour
 {
     public damageEnable[] type;
-    int damages = 0;
+    public int damages = 0;
 
     private void Update()
     {
