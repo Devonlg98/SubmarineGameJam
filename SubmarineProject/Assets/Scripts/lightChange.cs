@@ -11,11 +11,11 @@ public class lightChange : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.E)) 
         {
-            changeLightsBase();
+            changeLightsRed();
         }
         if (Input.GetKeyDown(KeyCode.R))
         {
-            changeLightsWhite();
+            changeLightsBase();
         }
     }
     public void changeLightsRed() 
