@@ -6,13 +6,22 @@ public class damageManager : MonoBehaviour
 {
     public damageEnable[] type;
     public int damages = 0;
-
+	public float targetTime = 5f;
+	public lightChange light;
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.E)) 
+        targetTime -= Time.deltaTime;
+
+        if (targetTime <= 0f)
         {
+            Debug.Log("please");
             createDamage();
+            targetTime = 5f;
         }
+		if (damages >= 3)
+		{
+			light.changeLightsRed();
+		}
     }
 
     public void createDamage() 

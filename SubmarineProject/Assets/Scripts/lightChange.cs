@@ -11,15 +11,14 @@ public class lightChange : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.E)) 
         {
-            changeLightsRed();
+            changeLightsBase();
         }
-
         if (Input.GetKeyDown(KeyCode.R))
         {
             changeLightsWhite();
         }
     }
-    void changeLightsRed() 
+    public void changeLightsRed() 
     {
         for (int i = 0; i < shipLights.Length; i++)
         {
@@ -27,7 +26,7 @@ public class lightChange : MonoBehaviour
         }
     }
 
-    void changeLightsWhite()
+    public void changeLightsBase()
     {
         for (int i = 0; i < shipLights.Length; i++)
         {

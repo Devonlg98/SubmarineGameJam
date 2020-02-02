@@ -502,6 +502,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 709840315}
     m_Modifications:
+    - target: {fileID: -9064309303332522412, guid: 86d0b32f99165ee43974b3750c409a8b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: -9050095477880005426, guid: 86d0b32f99165ee43974b3750c409a8b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -510,7 +515,7 @@ PrefabInstance:
     - target: {fileID: -9050095477880005426, guid: 86d0b32f99165ee43974b3750c409a8b,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.01
+      value: -0.013
       objectReference: {fileID: 0}
     - target: {fileID: -9050095477880005426, guid: 86d0b32f99165ee43974b3750c409a8b,
         type: 3}
@@ -527,6 +532,16 @@ PrefabInstance:
       propertyPath: m_LocalRotation.w
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: -8052994932809076077, guid: 86d0b32f99165ee43974b3750c409a8b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: -4473984409997532297, guid: 86d0b32f99165ee43974b3750c409a8b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: -4331229588441322541, guid: 86d0b32f99165ee43974b3750c409a8b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -535,7 +550,7 @@ PrefabInstance:
     - target: {fileID: -4331229588441322541, guid: 86d0b32f99165ee43974b3750c409a8b,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.01
+      value: -0.013
       objectReference: {fileID: 0}
     - target: {fileID: -4331229588441322541, guid: 86d0b32f99165ee43974b3750c409a8b,
         type: 3}
@@ -616,6 +631,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Sub
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 86d0b32f99165ee43974b3750c409a8b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1135244083771908629, guid: 86d0b32f99165ee43974b3750c409a8b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 9101430577481724397, guid: 86d0b32f99165ee43974b3750c409a8b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 86d0b32f99165ee43974b3750c409a8b, type: 3}
@@ -817,7 +847,8 @@ GameObject:
   - component: {fileID: 709840316}
   - component: {fileID: 709840320}
   - component: {fileID: 709840319}
-  m_Layer: 0
+  - component: {fileID: 709840317}
+  m_Layer: 8
   m_Name: Submarine
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -854,6 +885,19 @@ CapsuleCollider:
   m_Height: 2.25
   m_Direction: 2
   m_Center: {x: 0, y: -0.28, z: -0.2}
+--- !u!114 &709840317
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 709840314}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa79dcd6ab6811b4d8eb6676b0c4f7e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  torpedo: {fileID: 2695957746075437709, guid: 6e0b4c63235c32442925e83f601b3c46, type: 3}
 --- !u!114 &709840319
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -875,7 +919,7 @@ Rigidbody:
   m_GameObject: {fileID: 709840314}
   serializedVersion: 2
   m_Mass: 10
-  m_Drag: 0.5
+  m_Drag: 0.51
   m_AngularDrag: 0.5
   m_UseGravity: 0
   m_IsKinematic: 0
@@ -1392,7 +1436,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1320021061}
   - component: {fileID: 1320021062}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Spot Light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1579,7 +1623,7 @@ GameObject:
   - component: {fileID: 1621409087}
   - component: {fileID: 1621409089}
   - component: {fileID: 1621409088}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: SubCam
   m_TagString: Untagged
   m_Icon: {fileID: 0}

@@ -7,21 +7,23 @@ public class SubMovement : MonoBehaviour
     private damageManager damageScript;
     private LaunchTorpedo torpedoScript;
     private Rigidbody subBody;
-    private float moveSpeed = 30;
+    private float moveSpeed = 20;
     private float moveAcceleration = 0f;
     private float xTurnSpeed = 10f;
-    private float zTurnSpeed = 2f;
+    private float zTurnSpeed = 5f;
+    private float hitTimer = 0f;
     // Start is called before the first frame update
     void Start()
     {
         damageScript = FindObjectOfType<damageManager>();
+        torpedoScript = FindObjectOfType<LaunchTorpedo>();
         subBody = gameObject.GetComponent<Rigidbody>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetButtonDown("Fire1"))
+        if (Input.GetButtonDown("Button_P1"))
         {
             torpedoScript.Launch();
         }
@@ -33,22 +35,31 @@ public class SubMovement : MonoBehaviour
         {
             xAxis -= 360;
         }
-        float zAxis = transform.localEulerAngles.z;
-        if (zAxis > 180)
+        if (Input.GetAxis("MoveY_P1") == 0 && Input.GetAxis("MoveX_P1") == 0)
         {
-            zAxis -= 360;
+            subBody.angularDrag = (Mathf.Abs(xAxis) + 0.5f);
         }
-        print(zAxis);
-        subBody.angularDrag = (Mathf.Abs(xAxis + zAxis) + 0.5f) / 10;
-        subBody.AddTorque(transform.TransformDirection(-Input.GetAxis("Vertical") * xTurnSpeed, 0, -zAxis) +
-            new Vector3(0, Input.GetAxis("Horizontal") * zTurnSpeed, 0), ForceMode.Force);
-        subBody.AddTorque(-xAxis / 3, 0, 0, ForceMode.Force);
+        else
+        {
+            subBody.angularDrag = (Mathf.Abs(xAxis) + 0.5f) / 10;
+        }
+        subBody.AddTorque(transform.TransformDirection(-Input.GetAxis("MoveY_P1") * xTurnSpeed, Input.GetAxis("MoveX_P1") * zTurnSpeed, 0), ForceMode.Force);
+        subBody.AddRelativeTorque(-xAxis / 3, 0, 0, ForceMode.Force);
+        transform.localEulerAngles = new Vector3 (transform.localEulerAngles.x, transform.localEulerAngles.y, 0);
+        if (hitTimer > 0)
+        {
+            hitTimer -= Time.deltaTime;
+        }
     }
 
     private void OnCollisionEnter(Collision collision)
     {
-        ContactPoint point = collision.GetContact(0);
-        subBody.AddExplosionForce(30, point.point, 100, 0, ForceMode.Impulse);
-        damageScript.createDamage();
+        if (hitTimer <= 0)
+        {
+            ContactPoint point = collision.GetContact(0);
+            subBody.AddExplosionForce(20, point.point, 100, 0, ForceMode.Impulse);
+            damageScript.createDamage();
+            hitTimer = 2f;
+        }
     }
 }

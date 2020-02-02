@@ -13,6 +13,8 @@ TagManager:
   - ductTape
   - torpedoPickUp
   - torpedo
+  - obstacle
+  - sub
   layers:
   - Default
   - TransparentFX
@@ -22,9 +24,9 @@ TagManager:
   - UI
   - 
   - 
-  - 
-  - 
-  - 
+  - Submarine
+  - Torpedo
+  - MapPoints
   - 
   - 
   - 
