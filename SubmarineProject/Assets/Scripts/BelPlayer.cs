@@ -85,7 +85,7 @@ public class BelPlayer : MonoBehaviour
 			{
 				if ((button))
 				{
-					if ((repType > 0) && (repType < 4) && (looking.collider.tag == "Damage"))
+					if ((repType > 0) && (looking.collider.tag == "Damage" || looking.collider.tag == "torpedo"))
 					{
 						rep.Use();
 						crosshair.sprite = cross;
@@ -98,6 +98,10 @@ public class BelPlayer : MonoBehaviour
 							looking.collider.GetComponent<damageFixer>().Fix();
 							Debug.Log("all better!");
 						}
+                        else if (repType == 4 && looking.collider.tag == "torpedo")
+                        {
+                            Debug.Log("I GOT TA TOPETO!");
+                        }
 						else
 						{
 							Debug.Log("uh oh!");
@@ -126,17 +130,20 @@ public class BelPlayer : MonoBehaviour
 				if (looking.collider.tag == "Damage" ||
 					looking.collider.tag == "fireExPickUp" ||
 					looking.collider.tag == "wrenchPickUp" ||
-					looking.collider.tag == "ductTapePickUp") {
+					looking.collider.tag == "ductTapePickUp" ||
+                    looking.collider.tag == "torpedo")
+                {
 						crosshair.sprite = cross_;
 					}
 				if (looking.collider.tag != "Damage" &&
 					looking.collider.tag != "fireExPickUp" &&
 					looking.collider.tag != "wrenchPickUp" &&
-					looking.collider.tag != "ductTapePickUp") {
+					looking.collider.tag != "ductTapePickUp" ||
+                    looking.collider.tag == "torpedo") {
 						crosshair.sprite = cross;
 						crosshair.color = Color.white;
 					}
-				if ((repType > 0) && (repType < 4) && (looking.collider.tag == "Damage"))
+				if (((repType > 0) && (repType < 4) && (looking.collider.tag == "Damage")) || ((repType == 4) && (looking.collider.tag == "torpedo")))
 				{
 					crosshair.color = Color.cyan;
 				}

@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 public class BelHealth : MonoBehaviour
 {
+    public winScript lose;
 	public Image healthBar;
 	public int hp = 10;
 	
@@ -19,5 +20,9 @@ public class BelHealth : MonoBehaviour
 		hp = Mathf.Clamp(hp,0,10);
 		float _hp = (float)hp;
         healthBar.rectTransform.localScale = new Vector3((_hp/10f),1,1);
+        if (hp <= 0)
+        {
+            lose.loadLose();
+        }
     }
 }

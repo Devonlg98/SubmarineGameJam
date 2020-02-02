@@ -12,6 +12,6 @@ public class winScript : MonoBehaviour
 
     public void loadLose()
     {
-        SceneManager.LoadScene("LoseScene", LoadSceneMode.Single);
+        SceneManager.LoadScene("loseScene", LoadSceneMode.Single);
     }
 }
