@@ -833,7 +833,7 @@ MonoBehaviour:
   - {fileID: 216027151}
   damages: 0
   targetTime: 5
-  light: {fileID: 0}
+  light: {fileID: 1035334403}
 --- !u!1 &212745001
 GameObject:
   m_ObjectHideFlags: 0
