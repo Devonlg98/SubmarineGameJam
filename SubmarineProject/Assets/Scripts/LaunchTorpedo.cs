@@ -5,7 +5,7 @@ using UnityEngine;
 public class LaunchTorpedo : MonoBehaviour
 {
     public GameObject torpedo;
-    private bool isLoaded = false;
+    public bool isLoaded = false;
 
     public void Launch()
     {
