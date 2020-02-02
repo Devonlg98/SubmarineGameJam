@@ -88,6 +88,8 @@ public class BelPlayer : MonoBehaviour
 					if ((repType > 0) && (repType < 4) && (looking.collider.tag == "Damage"))
 					{
 						rep.Use();
+						crosshair.sprite = cross;
+						crosshair.color = Color.white;
 						if ((repType == 1 && looking.collider.transform.parent.tag == "fireEx") ||
 							(repType == 2 && looking.collider.transform.parent.tag == "wrench") ||
 							(repType == 3 && looking.collider.transform.parent.tag == "ductTape"))
@@ -100,8 +102,6 @@ public class BelPlayer : MonoBehaviour
 						{
 							Debug.Log("uh oh!");
 						}
-						crosshair.sprite = cross;
-						crosshair.color = Color.white;
 					}
 					if ((repType != 4))
 					{
@@ -128,14 +128,20 @@ public class BelPlayer : MonoBehaviour
 					looking.collider.tag == "wrenchPickUp" ||
 					looking.collider.tag == "ductTapePickUp") {
 						crosshair.sprite = cross_;
-						if ((repType > 0) && (repType < 4) && (looking.collider.tag == "Damage"))
-						{
-							crosshair.color = Color.cyan;
-						}
 					}
+				if (looking.collider.tag != "Damage" &&
+					looking.collider.tag != "fireExPickUp" &&
+					looking.collider.tag != "wrenchPickUp" &&
+					looking.collider.tag != "ductTapePickUp") {
+						crosshair.sprite = cross;
+						crosshair.color = Color.white;
+					}
+				if ((repType > 0) && (repType < 4) && (looking.collider.tag == "Damage"))
+				{
+					crosshair.color = Color.cyan;
+				}
 				else
 				{
-					crosshair.sprite = cross;
 					crosshair.color = Color.white;
 				}
 			}
@@ -144,6 +150,11 @@ public class BelPlayer : MonoBehaviour
 				crosshair.sprite = cross;
 				crosshair.color = Color.white;
 			}
+		}
+		else
+		{
+			crosshair.sprite = cross;
+			crosshair.color = Color.white;
 		}
     }
 }
