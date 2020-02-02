@@ -833,7 +833,7 @@ MonoBehaviour:
   - {fileID: 216027151}
   damages: 0
   targetTime: 5
-  light: {fileID: 0}
+  light: {fileID: 1035334403}
 --- !u!1 &212745001
 GameObject:
   m_ObjectHideFlags: 0
@@ -1195,7 +1195,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   camera: {fileID: 605034901}
-  playerNum: 1
+  playerNum: 2
 --- !u!143 &331288169
 CharacterController:
   m_ObjectHideFlags: 0
@@ -1568,7 +1568,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   camera: {fileID: 1497312682}
-  playerNum: 3
+  playerNum: 4
 --- !u!23 &573288155
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1764,7 +1764,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   camera: {fileID: 7550352}
-  playerNum: 2
+  playerNum: 3
 --- !u!114 &589818665
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3951,6 +3951,7 @@ MonoBehaviour:
   - {fileID: 747309853}
   - {fileID: 1071256473}
   - {fileID: 1973713725}
+  baseColor: {r: 0.8610902, g: 0.8962264, b: 0.47770557, a: 1}
 --- !u!1 &1048474910
 GameObject:
   m_ObjectHideFlags: 0
@@ -6516,7 +6517,7 @@ AudioListener:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1621409086}
-  m_Enabled: 1
+  m_Enabled: 0
 --- !u!20 &1621409089
 Camera:
   m_ObjectHideFlags: 0

@@ -20,7 +20,7 @@ public class damageManager : MonoBehaviour
         }
 		if (damages >= 3)
 		{
-			light.changeLights();
+			light.changeLightsRed();
 		}
     }
 
