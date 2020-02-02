@@ -25,6 +25,7 @@ public class lightChange : MonoBehaviour
             shipLights[i].color = Color.red;
         }
     }
+
     public void changeLightsBase()
     {
         for (int i = 0; i < shipLights.Length; i++)
