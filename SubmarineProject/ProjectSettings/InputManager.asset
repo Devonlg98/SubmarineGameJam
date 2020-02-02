@@ -244,7 +244,7 @@ InputManager:
     invert: 0
     type: 0
     axis: 0
-    joyNum: 1
+    joyNum: 3
   - serializedVersion: 3
     m_Name: MoveX_P4
     descriptiveName: P4 Move X
@@ -313,7 +313,23 @@ InputManager:
     m_Name: Button_P4
     descriptiveName: P4 Interact
     descriptiveNegativeName: 
-    negativeButton: joystick 3 button 0
+    negativeButton: joystick 4 button 0
+    positiveButton: 
+    altNegativeButton: 
+    altPositiveButton: 
+    gravity: 3000
+    dead: 0.1
+    sensitivity: 3000
+    snap: 1
+    invert: 0
+    type: 0
+    axis: 0
+    joyNum: 4
+  - serializedVersion: 3
+    m_Name: Cancel
+    descriptiveName: Cancel
+    descriptiveNegativeName: 
+    negativeButton: joystick 1 button 1
     positiveButton: 
     altNegativeButton: 
     altPositiveButton: 
