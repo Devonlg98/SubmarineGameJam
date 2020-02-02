@@ -1,13 +1,12 @@
 fileFormatVersion: 2
-<<<<<<< HEAD:SubmarineProject/Assets/BelPlayer.cs.meta
 guid: 39106eb5c30f8d54d954bec212869aa6
-=======
-guid: 6ae34661a054fe547beecb545b290312
->>>>>>> master:SubmarineProject/Assets/Scripts/damageEnable.cs.meta
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - camera: {instanceID: 0}
+  - cross: {fileID: 21300000, guid: fe6f7cf6462ee9c4c8599e5544b384a0, type: 3}
+  - cross_: {fileID: 21300000, guid: e0cabd178ad844a449223b2ebdc028f6, type: 3}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

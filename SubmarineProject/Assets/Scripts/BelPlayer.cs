@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class BelPlayer : MonoBehaviour
 {
@@ -22,17 +23,25 @@ public class BelPlayer : MonoBehaviour
 	private int repType = 0;
 	private Ray look;//where you're looking
 	private RaycastHit looking;//what you're looking at
+	public AudioClip[] repSounds;
+	private AudioSource repSource;
+	//UI
+	private Image crosshair;
+	public Sprite cross;
+	public Sprite cross_;
     // Start is called before the first frame update
     void Start()
     {
 		rep = GetComponent<Repair>();
 		cc = GetComponent<CharacterController>();
+		repSource = GetComponent<AudioSource>();
+		crosshair = GameObject.Find("Cross_P" + playerNum).GetComponent<Image>();
     }
 
     // Update is called once per frame
     void Update()
     {
-		//gui.SendMessage("Crosshair");
+		
 		//UPDATE CONTROLS
 		button = Input.GetButtonDown("Button_P" + playerNum);
 		moveX = (Input.GetAxis("MoveX_P" + playerNum) * speed) * Time.deltaTime;
@@ -83,6 +92,7 @@ public class BelPlayer : MonoBehaviour
 							(repType == 2 && looking.collider.transform.parent.tag == "wrench") ||
 							(repType == 3 && looking.collider.transform.parent.tag == "ductTape"))
 						{
+							repSource.PlayOneShot(repSounds[repType-1]);
 							looking.collider.GetComponent<damageFixer>().Fix();
 							Debug.Log("all better!");
 						}
@@ -90,6 +100,8 @@ public class BelPlayer : MonoBehaviour
 						{
 							Debug.Log("uh oh!");
 						}
+						crosshair.sprite = cross;
+						crosshair.color = Color.white;
 					}
 					if ((repType != 4))
 					{
@@ -111,6 +123,26 @@ public class BelPlayer : MonoBehaviour
 						}
 					}
 				}
+				if (looking.collider.tag == "Damage" ||
+					looking.collider.tag == "fireExPickUp" ||
+					looking.collider.tag == "wrenchPickUp" ||
+					looking.collider.tag == "ductTapePickUp") {
+						crosshair.sprite = cross_;
+						if ((repType > 0) && (repType < 4) && (looking.collider.tag == "Damage"))
+						{
+							crosshair.color = Color.cyan;
+						}
+					}
+				else
+				{
+					crosshair.sprite = cross;
+					crosshair.color = Color.white;
+				}
+			}
+			if (looking.collider == null)
+			{
+				crosshair.sprite = cross;
+				crosshair.color = Color.white;
 			}
 		}
     }
