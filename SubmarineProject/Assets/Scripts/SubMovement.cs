@@ -7,7 +7,7 @@ public class SubMovement : MonoBehaviour
     private damageManager damageScript;
     private LaunchTorpedo torpedoScript;
     private Rigidbody subBody;
-    private float moveSpeed = 20;
+    private float moveSpeed = 70;
     private float moveAcceleration = 0f;
     private float xTurnSpeed = 10f;
     private float zTurnSpeed = 5f;
