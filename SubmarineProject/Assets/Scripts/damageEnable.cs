@@ -6,6 +6,7 @@ public class damageEnable : MonoBehaviour
 {
     public GameObject[] damages;
     public damageManager reset;
+	public BelHealth health;
     int activeCount;
     public void enableDamage() 
     {
@@ -25,6 +26,7 @@ public class damageEnable : MonoBehaviour
             damages[enabledElement].SetActive(true);
             reset.damageCount();
             activeCount++;
+			health.hp--;
             break;
         }
     }
