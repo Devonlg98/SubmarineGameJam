@@ -5,10 +5,13 @@ using UnityEngine.SceneManagement;
 
 public class winScript : MonoBehaviour
 {
-    public Scene Win;
     private void OnTriggerEnter(Collider other)
     {
         SceneManager.LoadScene("winScene", LoadSceneMode.Single);
     }
 
+    public void loadLose()
+    {
+        SceneManager.LoadScene("LoseScene", LoadSceneMode.Single);
+    }
 }
