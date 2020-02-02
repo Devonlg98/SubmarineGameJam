@@ -874,6 +874,7 @@ MonoBehaviour:
   - {fileID: 228927465}
   - {fileID: 1051773530}
   - {fileID: 230867161}
+  baseColor: {r: 0.8610902, g: 0.8962264, b: 0.47770557, a: 1}
 --- !u!1 &432933432
 GameObject:
   m_ObjectHideFlags: 0
@@ -1719,6 +1720,7 @@ MonoBehaviour:
   - {fileID: 1614232910}
   - {fileID: 1522299002}
   - {fileID: 1560288975}
+  damages: 0
 --- !u!1 &701714652
 GameObject:
   m_ObjectHideFlags: 0
