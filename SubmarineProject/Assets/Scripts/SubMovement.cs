@@ -57,7 +57,7 @@ public class SubMovement : MonoBehaviour
         if (hitTimer <= 0)
         {
             ContactPoint point = collision.GetContact(0);
-            subBody.AddExplosionForce(20, point.point, 100, 0, ForceMode.Impulse);
+            subBody.AddExplosionForce(30, point.point, 100, 0, ForceMode.Impulse);
             damageScript.createDamage();
             hitTimer = 2f;
         }
