@@ -8,6 +8,22 @@ public class damageEnable : MonoBehaviour
     public damageManager reset;
 	public BelHealth health;
     int activeCount;
+	private AudioSource sound;
+	void Start()
+	{
+		sound = GetComponent<AudioSource>();
+	}
+	void Update()
+	{
+		if (activeCount >= 2)
+		{
+			sound.enabled = true;
+		}
+		else
+		{
+			sound.enabled = false;
+		}
+	}
     public void enableDamage() 
     {
         while (true) 
