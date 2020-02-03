@@ -15,6 +15,7 @@ public class BelMusic : MonoBehaviour
 		mus = GetComponent<AudioSource>();
 		mus.clip = music[0];
 		other = health.hp;
+        mus.Play();
     }
 
     // Update is called once per frame

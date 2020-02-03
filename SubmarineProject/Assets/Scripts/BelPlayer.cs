@@ -92,16 +92,21 @@ public class BelPlayer : MonoBehaviour
 						crosshair.color = Color.white;
 						if ((repType == 1 && looking.collider.transform.parent.tag == "fireEx") ||
 							(repType == 2 && looking.collider.transform.parent.tag == "wrench") ||
-							(repType == 3 && looking.collider.transform.parent.tag == "ductTape"))
+							(repType == 3 && looking.collider.transform.parent.tag == "ductTape") ||
+                            (repType == 4 && looking.collider.tag == "torpedo"))
 						{
-							repSource.PlayOneShot(repSounds[repType-1]);
-							looking.collider.GetComponent<damageFixer>().Fix();
-							Debug.Log("all better!");
+                            if (repType < 4)
+                            {
+                                repSource.PlayOneShot(repSounds[repType-1]);
+							    looking.collider.GetComponent<damageFixer>().Fix();
+							    Debug.Log("all better!");
+                            }
+							else
+                            {
+                                Debug.Log("I GOT TA TOPETO!");
+                                looking.collider.GetComponent<BelTopeto>().IGotTaTopeto();
+                            }
 						}
-                        else if (repType == 4 && looking.collider.tag == "torpedo")
-                        {
-                            Debug.Log("I GOT TA TOPETO!");
-                        }
 						else
 						{
 							Debug.Log("uh oh!");

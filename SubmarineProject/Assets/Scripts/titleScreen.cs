@@ -35,6 +35,7 @@ public class titleScreen : MonoBehaviour
 
     public void quitGame() 
     {
+        Debug.Log("editorrrr");
         Application.Quit();
     }
 }
